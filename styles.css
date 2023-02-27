@@ -1,0 +1,73 @@
+:root {
+    --clr-primary-500: hsl(0, 36%, 70%);
+    --clr-primary-200: hsl(0, 93%, 68%);
+  
+    --clr-neutral: hsl(0, 6%, 24%);
+  
+    --clr-linear-neutral: 135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%);
+    --clr-linear-primary: 135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%);
+  
+    --ff: 'Josefin Sans', sans-serif;
+  
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-semibold: 600;
+}
+
+
+/* CSS RESETS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+/* 
+  Typographic tweaks!
+  - Add accessibility Line-Height
+  - Improve yexy rendering
+*/
+
+body {
+ line-height: 1.7;
+ -webkit-font-smoothing: antialiased;
+}
+
+/* Improve media defaults */
+img,
+picture,
+video,
+canvas,
+svg {
+ display: block;
+ max-width: 100%;
+}
+
+/* Remove built in form typography */
+input,
+button,
+textarea,
+select {
+ font: inherit;
+}
+
+/* Avoid text overflow */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ overflow-wrap: break-word;
+}
