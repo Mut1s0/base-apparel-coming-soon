@@ -71,3 +71,73 @@ h5,
 h6 {
  overflow-wrap: break-word;
 }
+
+body {
+    background-color: var(--clr-linear-primary);
+    font-family: var(--ff);
+}
+
+.container {
+    max-width: 23.4375rem;
+    margin: 0 auto;
+}
+
+.header--logo {
+    width: 10.5rem;
+    padding: 2.4rem 1.8rem;
+}
+
+
+.content--header {
+    text-transform: uppercase;
+    width: 60%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.5rem;
+    line-height: 2.8rem;
+    font-size: 2.5rem;
+}
+
+.content--header > span {
+    color: var(--clr-primary-500);
+    font-weight: var(--fw-light);
+}
+
+.content--paragraph {
+    width: 95%;
+    margin: 2rem auto;
+    text-align: center;
+    color: var(--clr-primary-500);
+    font-weight: var(--fw-semibold);
+}
+
+input {
+    width: 100%;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--clr-primary-500);
+}
+
+::placeholder {
+    color: var(--clr-primary-500);
+    font-weight: var(--fw-light);
+}
+
+.input {
+    position: relative;
+}
+
+.input--arrow {
+    position: absolute;
+    right: -3px;
+    top: -10px;
+    font-size: 45px;
+    height: 50px;
+}
+
+.input--arrow > i {
+    cursor: pointer;
+}
